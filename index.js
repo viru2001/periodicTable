@@ -9,7 +9,9 @@ const colors = {
 
 // get data from api
 async function getData() {
-    const response = await fetch('https://periodic-table-elements-info.herokuapp.com/elements');
+    const response = await fetch(
+      "https://periodic-table-api-omega.vercel.app/elements"
+    );
     const data = await response.json();
     return data;
 }
