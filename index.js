@@ -306,7 +306,7 @@ selectAlkalineEarthMetals.addEventListener("mousemove", () => {
         element.style.opacity = 0.3;
     });
 
-    const alkalineEarthMetals = document.querySelectorAll(".alkaline.earth.metal");
+    const alkalineEarthMetals = document.querySelectorAll(".alkaline_earth_metal");
     alkalineEarthMetals.forEach((element) => {
         element.style.opacity = 1;
         element.style.borderColor = "#fff";
@@ -337,7 +337,7 @@ selectAlkaliMetals.addEventListener("mousemove", () => {
     allElements.forEach((element) => {
         element.style.opacity = 0.3;
     });
-    const alkaliMetals = document.querySelectorAll(".alkali.metal");
+    const alkaliMetals = document.querySelectorAll(".alkali_metal");
     alkaliMetals.forEach((element) => {
         element.style.opacity = 1;
         element.style.borderColor = "#fff";
@@ -428,7 +428,7 @@ selectTransitionMetals.addEventListener("mousemove", () => {
     allElements.forEach((element) => {
         element.style.opacity = 0.3;
     });
-    const transitionMetals = document.querySelectorAll(".transition.metal");
+    const transitionMetals = document.querySelectorAll(".transition_metal");
     transitionMetals.forEach((element) => {
         element.style.opacity = 1;
         element.style.borderColor = "#fff";
@@ -459,7 +459,7 @@ selectPostTransitionMetals.addEventListener("mousemove", () => {
     allElements.forEach((element) => {
         element.style.opacity = 0.3;
     });
-    const postTransitionMetals = document.querySelectorAll(".post-transition.metal");
+    const postTransitionMetals = document.querySelectorAll(".post_transition_metal");
     postTransitionMetals.forEach((element) => {
         element.style.opacity = 1;
         element.style.borderColor = "#fff";
@@ -519,7 +519,7 @@ selectNobleGases.addEventListener("mousemove", () => {
     allElements.forEach((element) => {
         element.style.opacity = 0.3;
     });
-    const nobleGases = document.querySelectorAll(".noble.gas");
+    const nobleGases = document.querySelectorAll(".noble_gas");
     nobleGases.forEach((element) => {
         element.style.opacity = 1;
         element.style.borderColor = "#fff";
